@@ -4,6 +4,7 @@ module.exports = {
   './index.html',
   './src/input.css',
   './pages/**/*.{html,js}',
+  './node_modules/flowbite/**/*.js',
   
 ],
 safelist: [
@@ -21,6 +22,7 @@ safelist: [
   },
   plugins: [
     require("daisyui"),
+    require('flowbite/plugin'),
     
   ],
 }

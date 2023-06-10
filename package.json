@@ -6,6 +6,7 @@
   "dependencies": {
     "countup.js": "^2.6.2",
     "daisyui": "^2.51.6",
+    "flowbite": "^1.6.5",
     "taos": "^1.0.3",
     "tw-elements": "^1.0.0-beta2"
   },
