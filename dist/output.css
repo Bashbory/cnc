@@ -3248,10 +3248,6 @@ html {
   border-width: 0px;
 }
 
-.border-r-8 {
-  border-right-width: 8px;
-}
-
 .border-t {
   border-top-width: 1px;
 }
@@ -4227,6 +4223,10 @@ html {
 
   .max-sm\:gap-8 {
     gap: 2rem;
+  }
+
+  .max-sm\:border-none {
+    border-style: none;
   }
 
   .max-sm\:px-4 {
