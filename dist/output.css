@@ -4355,6 +4355,10 @@ input:checked + .toggle-bg {
   margin-top: auto;
 }
 
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
 .block {
   display: block;
 }
@@ -5964,6 +5968,12 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
+    display: none;
+  }
+}
+
 @media not all and (min-width: 768px) {
   .max-md\:static {
     position: static;
@@ -5980,6 +5990,10 @@ input:checked + .toggle-bg {
 
   .max-md\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .max-md\:hidden {
+    display: none;
   }
 
   .max-md\:h-\[100\%\] {
